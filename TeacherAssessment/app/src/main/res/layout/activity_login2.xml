@@ -39,6 +39,7 @@
                 android:src="@drawable/student_login"/>
 
             <EditText
+                android:id="@+id/student_id_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18dp"
@@ -66,6 +67,7 @@
                 android:src="@drawable/password_icon"/>
 
             <EditText
+                android:id="@+id/passwaord_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18dp"
@@ -76,6 +78,26 @@
                 android:inputType="textPassword"
                 android:textCursorDrawable="@drawable/cursor_color"/>
         </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:background="@drawable/login_btn">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="เข้าสู่ระบบ"
+               android:textSize="18dp"
+               android:layout_margin="14dp"
+               android:gravity="center"/>
+
+        </LinearLayout>
+
+
 
     </LinearLayout>
 

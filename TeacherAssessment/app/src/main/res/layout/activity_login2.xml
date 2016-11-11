@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
    >
 
     <LinearLayout
@@ -25,9 +26,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp">
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center">
 
-            <ImageView
+
+        <ImageView
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginTop="5dp"
@@ -40,15 +45,19 @@
                 android:hint="STUDENT ID"
                 android:textSize="18dp"
                 android:maxLines="1"
-                android:singleLine="true"
-                android:inputType="number"/>
+                android:inputType="number"
+                android:backgroundTint="#000"
+                android:textCursorDrawable="@drawable/cursor_color"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="25dp">
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center">
 
             <ImageView
                 android:layout_width="35dp"
@@ -63,10 +72,10 @@
                 android:hint="PASSWORD"
                 android:textSize="18dp"
                 android:maxLines="1"
-                android:singleLine="true"
-                android:inputType="textPassword"/>
+                android:backgroundTint="#000"
+                android:inputType="textPassword"
+                android:textCursorDrawable="@drawable/cursor_color"/>
         </LinearLayout>
-
 
     </LinearLayout>
 
